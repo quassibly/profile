@@ -1,13 +1,13 @@
 body {
-  background-color: #283149;
+  background-color: #006272;
   font-family: 'Nunito', sans-serif;
-  color: #DBEDF3;
+  color: #006272;
   font-size: 16px;
   line-height: 18px;
 }
 
 h1, h2, h3 {
-  color: #F73859;
+  color: rgb(50, 50, 50);
   font-family: 'Pacifico', cursive;
 }
 
@@ -47,7 +47,7 @@ td {
 .card {
   padding: 20px 40px;
   margin: 25px;
-  background-color: #404B69;
+  background-color: #D7CDCC;
   border-radius: 10px;
 }
 
@@ -58,6 +58,10 @@ td {
 
 .image-corner {
   border-radius: 5%;
+}
+
+.image-scale {
+  max-width: 100%;
 }
 
 .list-inline > li {
